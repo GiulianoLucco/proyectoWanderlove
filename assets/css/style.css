@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  bottom: 0;
+  background: linear-gradient(180deg, black 0%, #626262 86%, #afafaf 100%);
+}
+
+footer .redes {
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+footer .redes li:hover {
+  background-color: blue;
+}
+
+/*  */
+
+.titular {
+  text-align: center;
+}
+
+.titular h2, h1 {
+  font-weight: 600;
+  font-family: monospace !important;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grilla {
+  display: grid;
+  grid-template-areas: "grillaUno grillaDos";
+  grid-template-columns: 30% 70%;
+}
+
+.grilla1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grilla1 {
+  grid-template-areas: grillaUno;
+}
+
+.grilla2 {
+  grid-template-areas: grillaDos;
+}
+
+nav div a {
+  color: #0f0f0f !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.cardStyle{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+
+
+
+.row{  
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
