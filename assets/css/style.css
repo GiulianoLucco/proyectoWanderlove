@@ -8,6 +8,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   height: 100%;
+
 }
 
 footer {
@@ -70,7 +71,6 @@ h2 {
 nav div a {
   color: #0f0f0f !important;
   font-family: Arial, Helvetica, sans-serif !important;
-<<<<<<< HEAD
 }
 
 .cardStyle{
@@ -82,12 +82,26 @@ nav div a {
 
 }
 
-
+.card{
+  background-color: #e3c2c2;
+}
 
 .row{  
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
-=======
->>>>>>> cb399839a14f0e019e985825fb2f2adab10362a5
+}
+
+.d-block{
+  height: 750px;
+}
+
+.contactoRedes{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 50px;
+
 }
