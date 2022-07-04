@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 body {
@@ -8,7 +9,6 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   height: 100%;
-
 }
 
 footer {
@@ -39,7 +39,8 @@ footer .redes li:hover {
   text-align: center;
 }
 
-.titular h2, h1 {
+.titular h2,
+h1 {
   font-weight: 600;
   font-family: monospace !important;
 }
@@ -51,7 +52,7 @@ h2 {
 .grilla {
   display: grid;
   grid-template-areas: "grillaUno grillaDos";
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 1fr 2fr;
 }
 
 .grilla1 {
@@ -73,48 +74,110 @@ nav div a {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.cardStyle{
-
+.cardStyle {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin-top: 50px;
-
 }
 
-.card{
-  background-color: #e3c2c2;
+.card {
+  background-color: #c99c5d33;
+  border-radius: 5px;
 }
 
-.row{  
+.row {
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.d-block{
+.d-block {
   height: 500px;
   width: 500px;
-  
 }
 
-.contactoRedes{
+.contactoRedes {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
   font-size: 50px;
-
 }
 
-.logo{
+.logo {
   width: 70px;
   height: 70px;
 }
 
-.carousel{
+.carousel {
   border-radius: 1cm;
-  background-color: rgb(243, 116, 116);
+  background-color: #c99c5d7e;
+  align-items: center;
+}
+
+.carousel-item img {
+  margin: auto;
+}
+
+
+/************************************** CONTACTO **************************************/
+
+
+.content {
+  width: 65%;
+  margin: 1rem auto 3rem auto;
+}
+
+.content h2 {
+  font-size: 2rem;
   text-align: center;
+}
+.content p {
+  text-align: center;
+  line-height: 26px;
+  font-size: 1.3rem;
+}
+/* Form */
+
+.form label {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input {
+  display: block;
+  border: none;
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+
+.form input[type="text"] {
+  border: 1px solid #495e8d;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 16px;
+}
+
+.form button {
+  border-radius: 5px;
+  background-color: #ad8750;
+  color: white;
+  padding: 1.5rem 3rem;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+article a {
+  display: grid;
+  margin: auto;
+  width: 50%;
+  text-decoration: none;
 }
