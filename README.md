@@ -1,4 +1,4 @@
-<h1 align="center">Proyecto Wonderlove</h1>
+<h1 align="center">Proyecto Wanderlove</h1>
 
 ### Proyecto realizado por
 
