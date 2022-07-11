@@ -49,29 +49,13 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.grilla {
-  display: grid;
-  grid-template-areas: "grillaUno grillaDos";
-  grid-template-columns: 1fr 2fr;
-}
-
-.grilla1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.grilla1 {
-  grid-template-areas: grillaUno;
-}
-
-.grilla2 {
-  grid-template-areas: grillaDos;
-}
-
 nav div a {
   color: #0f0f0f !important;
   font-family: Arial, Helvetica, sans-serif !important;
+}
+
+a {
+  justify-content: center;
 }
 
 .cardStyle {
@@ -84,7 +68,10 @@ nav div a {
 .card {
   background-color: #c99c5d33;
   border-radius: 5px;
+  height: 470px;
+  width: 300px;
 }
+
 
 .row {
   justify-content: space-around;
@@ -121,9 +108,7 @@ nav div a {
   margin: auto;
 }
 
-
 /************************************** CONTACTO **************************************/
-
 
 .content {
   width: 65%;
@@ -180,4 +165,78 @@ article a {
   margin: auto;
   width: 50%;
   text-decoration: none;
+  
+}
+li{
+  list-style: none;
+}
+
+#productos img {
+  display: flex;
+  align-self: center;
+  width: 75%;
+  height: 50%;
+  padding: 10px;
+}
+
+.listContacto{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* -------------------------- */
+/******** RESPONSIVE  ********/
+/* ------------------------ */
+
+/* Tablets */
+@media (min-width: 480px) and (max-width: 1024px) {
+}
+
+/* Smartphone */
+@media (max-width: 479px) {
+  .d-block {
+    height: 50%;
+    width: 100%;
+  }
+}
+
+div.col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+  align-items: center; 
+  justify-content:center ;
+  background-color: #c99c5d7e;
+  border-radius: 4cm;
+  }
+
+.textInicio{
+  font-size: 70px;
+  text-align: center;
+  
+}
+
+.imgInicio{
+  height: 700px;
+  width: 700px;
+  border-radius: 23cm;
+  padding: 100px;
+}
+
+.h2Inicio{
+  font-size: 40px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
