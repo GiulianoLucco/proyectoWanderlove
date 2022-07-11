@@ -165,10 +165,13 @@ article a {
   margin: auto;
   width: 50%;
   text-decoration: none;
+<<<<<<< HEAD
   
 }
 li{
   list-style: none;
+=======
+>>>>>>> d33b98e231d7f349c4f53c351a0f6212c811365f
 }
 
 #productos img {
@@ -176,6 +179,7 @@ li{
   align-self: center;
   width: 75%;
   height: 50%;
+<<<<<<< HEAD
   padding: 10px;
 }
 
@@ -184,6 +188,8 @@ li{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+=======
+>>>>>>> d33b98e231d7f349c4f53c351a0f6212c811365f
 }
 
 /* -------------------------- */
@@ -207,6 +213,7 @@ div.col-12 {
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
 
 .inicio{
   display: flex;
@@ -240,3 +247,5 @@ a{
   text-decoration: none;
   color: white;
 }
+=======
+>>>>>>> d33b98e231d7f349c4f53c351a0f6212c811365f
