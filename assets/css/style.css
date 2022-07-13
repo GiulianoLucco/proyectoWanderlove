@@ -1,7 +1,12 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: sans-serif !important;
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url(../fonts/Lobster-Regular.ttf);
 }
 
 body {
@@ -42,7 +47,11 @@ footer .redes li:hover {
 .titular h2,
 h1 {
   font-weight: 600;
-  font-family: monospace !important;
+  
+}
+
+.inicio h1 {
+  font-family: Lobster !important;
 }
 
 h2 {
@@ -71,7 +80,6 @@ a {
   height: 470px;
   width: 300px;
 }
-
 
 .row {
   justify-content: space-around;
@@ -165,9 +173,8 @@ article a {
   margin: auto;
   width: 50%;
   text-decoration: none;
-  
 }
-li{
+li {
   list-style: none;
 }
 
@@ -179,11 +186,49 @@ li{
   padding: 10px;
 }
 
-.listContacto{
+.listContacto {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+div.col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inicio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #c99c5d7e;
+  border-radius: 4cm;
+}
+
+.textInicio {
+  font-size: 70px;
+  text-align: center;
+}
+
+.imgInicio {
+  height: 700px;
+  width: 700px;
+  border-radius: 23cm;
+  padding: 100px;
+}
+
+.h2Inicio {
+  font-size: 40px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 /* -------------------------- */
@@ -200,43 +245,18 @@ li{
     height: 50%;
     width: 100%;
   }
-}
-
-div.col-12 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.inicio{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row; 
-  align-items: center; 
-  justify-content:center ;
-  background-color: #c99c5d7e;
-  border-radius: 4cm;
+  .imgInicio {
+    height: 100%;
+    width: 100%;
+    border-radius: 23cm;
+    padding: 100px;
   }
-
-.textInicio{
-  font-size: 70px;
-  text-align: center;
-  
-}
-
-.imgInicio{
-  height: 700px;
-  width: 700px;
-  border-radius: 23cm;
-  padding: 100px;
-}
-
-.h2Inicio{
-  font-size: 40px;
-  text-align: center;
-}
-
-a{
-  text-decoration: none;
-  color: white;
+  .textInicio {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .h2Inicio {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
